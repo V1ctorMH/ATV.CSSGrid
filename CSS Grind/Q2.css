@@ -1,0 +1,43 @@
+.Container{
+    display: grid;
+    grid-template-areas:
+        "Cabeca Cabeca"
+        "Navegacao Conteudo"
+        "Pe Pe";
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+.Cabeca {
+    grid-area: Cabeca;
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.Navegacao {
+    grid-area: Navegacao;
+    background-color: #333;
+    color: white;
+    width: 200px;
+}
+
+.Conteudo {
+    grid-area: Conteudo;
+    background-color: white;
+    height: 800px;
+}
+
+.Pe {
+    grid-area: Pe;
+    background-color: #333;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
